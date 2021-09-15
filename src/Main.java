@@ -66,7 +66,17 @@ public class Main {
 
     private static void equalTri(int num){
 
-        for (int i = 0; i <= num; i++) {
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(" ");
+            }
+            for (int j = num; j >= i+1; j--) {
+                System.out.print("X ");
+            }
+            System.out.println();
+        }
+
+       /* for (int i = 0; i <= num; i++) {
 
             for (int j = num; j >= i; j--) {
                 System.out.print(" ");
@@ -76,7 +86,7 @@ public class Main {
             }
 
             System.out.println();
-        }
+        }*/
 
     }
 
