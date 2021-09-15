@@ -1,17 +1,29 @@
+import java.util.Scanner;
+
 public class Main {
-    static int NUMBER = 5;
+    static int NUMBER;
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.print("Enter a number: ");
+        NUMBER = sc.nextInt();
+
+        System.out.println();
+        System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        System.out.println();
 
         invOppTri(NUMBER);
         regularTri(NUMBER);
-        System.out.println();
+        System.out.println("--------------------------------");
         invRegularTri(NUMBER);
         oppTri(NUMBER);
-        System.out.println();
+        System.out.println("--------------------------------");
         equalTri(NUMBER);
-        System.out.println();
+        System.out.println("--------------------------------");
         diamond(NUMBER);
+
+        System.out.println("Number entered: "+NUMBER);
+
     }
 
     private static void regularTri(int num) {
