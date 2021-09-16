@@ -15,12 +15,21 @@ public class Main {
         invOppTri(NUMBER);
         regularTri(NUMBER);
         System.out.println("--------------------------------");
+        System.out.println("----------- "+NUMBER+" --------------");
+        System.out.println("--------------------------------");
         invRegularTri(NUMBER);
         oppTri(NUMBER);
         System.out.println("--------------------------------");
+        System.out.println("----------- "+NUMBER+" --------------");
+        System.out.println("--------------------------------");
         equalTri(NUMBER);
         System.out.println("--------------------------------");
+        System.out.println("----------- "+NUMBER+" --------------");
+        System.out.println("--------------------------------");
         diamond(NUMBER);
+        System.out.println("--------------------------------");
+        System.out.println("----------- "+NUMBER+" --------------");
+        System.out.println("--------------------------------");
 
         System.out.println("Number entered: "+NUMBER);
 
